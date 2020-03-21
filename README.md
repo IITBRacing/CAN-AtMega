@@ -1,3 +1,6 @@
+# CAN node with AtMega 16M1
+
+## For test node
 In timer.c , the timer has been changed from 1 to timer 0 as timer 1 is being used to send message on CAN bus periodically Same change is refllected on timer.h as well.
 
 Orig_code.c First initial CAN code which sends data on bus at the end of while loop.
@@ -12,9 +15,7 @@ ADC.h Corresponding header
 
 
 
-**************************************************************************************************************************************************************************
-**************************************************************************************************************************************************************************
-
+## For MID-CAN node
 
 The code used for Testing AtMega 16M1 is taken and we made changes in final_code_adc.c 
 
