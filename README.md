@@ -23,5 +23,5 @@ the only change made was, while mapping the sensor data to buffer bites of CAN m
 
 we made changes according our convetional encoding method.
 
-*This code isn't tested yet
+> This code isn't tested yet
 
