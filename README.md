@@ -23,9 +23,9 @@ the only change made was, while mapping the sensor data to buffer bites of CAN m
 
 we made changes according our convetional encoding method.
 
-Board is compatible with 6 Analog pins but as 8 bits can maximum take 5 sensors data we ommited 6th buffer sensors data in CAN message  
+  
 
-[//]: <> (This is also a comment.)
+[//]: <> (Board is compatible with 6 Analog pins but as 8 bits can maximum take 5 sensors data we ommited 6th buffer sensors data in CAN message.)
 
 > This code isn't tested yet
 
