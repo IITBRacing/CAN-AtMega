@@ -12,7 +12,7 @@ main_code_ADC.c This is the final code using ADC to rad the analog voltage from 
 ADC.c- This contains the function to return the 10 bit data from the read potentiometer value.
 
 ADC.h Corresponding header
-
+> Test node is tested and is working
 
 
 ### For MID-CAN node
@@ -22,6 +22,8 @@ The code used for Testing AtMega 16M1 is taken and we made changes in final_code
 the only change made was, while mapping the sensor data to buffer bites of CAN message, 
 
 we made changes according our convetional encoding method.
+
+Board is compatible with 6 Analog pins but as 8 bits can maximum take 5 sensors data we ommited 6th buffer sensors data in CAN message  
 
 > This code isn't tested yet
 
