@@ -90,14 +90,14 @@ int main(void)
 
             while (1){
 
-                 L1C = ADC_convert(10);
-                 L2C = ADC_convert(5);
-                 SR = ADC_convert(4);
-                 SL = ADC_convert(6);
-                 B2D = ADC_convert(7);
+                 L1C = ADC_convert(10); // L1C : LOAD CELL 1
+                 L2C = ADC_convert(5);  // L1C : LOAD CELL 2
+                 SR = ADC_convert(4);	// SR : RIGHT SUSPENSION SENSOR
+                 SL = ADC_convert(6);	// SL : LEFT SUSPENSION SENSOR
+                 B2D = ADC_convert(7);	// B2D : 2nd BREAK PRESSURE SENSOR
                //  A6D = ADC_convert(8);
 
-
+		    
                   response_data[0]  = L1C/4;
 		  response_data[1]  = L2C/4;
                   response_data[2]  = SR/4;
